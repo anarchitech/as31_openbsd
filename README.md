@@ -9,3 +9,13 @@ This has been tested with OpenBSD 7.2 -current i386.
 More information on AS31 may be found at Paul Stoffregen's site:
 
 https://www.pjrc.com/tech/8051/index.html
+
+## Building
+
+Make sure you have bison.
+
+$ make
+
+$ cp as31 /home/$USER/bin
+
+That's it.
